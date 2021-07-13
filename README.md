@@ -50,24 +50,24 @@ and pushing regularly.
     `dictionary.txt` file. In the worse case scenario, how many comparisons 
     would it take to find out if a word is in the dictionary?
     
-    > Your answer here
+    > The worse case of Big-O comparison is O(n) comparisons.
 
 3.  Suppose you use a prefix tree to store the words from the `dictionary.txt` 
     file. In the worse case scenario, how many comparisons would it 
     take to find out if a word is in the dictionary using the `Dictionary` 
     class?
     
-    > Your answer here
+    > It is O(n) comparisons.
 
 4.  Why is the prefix tree better than a binary search tree for implementing 
     Boggle?
 
-    > Your answer here
+    > Less run time. 
 
 5.  Suppose you do not use `IsPrefix` in your `SolveBoard` implementation.  
     How would that affect the program?
 
-    > Your answer here
+    > It would be slowly.
 
 ## Recommended Implementation Order
 
