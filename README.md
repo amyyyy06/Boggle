@@ -3,7 +3,7 @@
 
 > **Note:** It will take 2-5 minutes for the points to update after you push.
 >
-> **Late Days:** I am using 0 late days
+> **Late Days:** I am using 1 late days
 
 Credit Todd Feldman for the original idea behind the assignment. Adapted from 
 handouts of Julie Zelenski and Eric Roberts. Copyright (c) 2021 Varick Erickson.
