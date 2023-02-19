@@ -57,7 +57,9 @@ and pushing regularly.
     take to find out if a word is in the dictionary using the `Dictionary` 
     class?
     
-    > It is O(n) comparisons.
+    > It is O(n) comparisons. n is the length of the word being searched for.
+
+
 
 4.  Why is the prefix tree better than a binary search tree for implementing 
     Boggle?
@@ -67,7 +69,8 @@ and pushing regularly.
 5.  Suppose you do not use `IsPrefix` in your `SolveBoard` implementation.  
     How would that affect the program?
 
-    > It would be slowly.
+    > It would be slowly. It would significantly increase the number of comparisons
+
 
 ## Recommended Implementation Order
 

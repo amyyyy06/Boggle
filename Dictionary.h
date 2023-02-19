@@ -60,32 +60,21 @@ private:
         // Your node structure here.
         // You can also use a struct if you like.
 
-            //Node* letters = letters*ptr[NUM_CHARS];
-
-               Node* letters[NUM_CHARS];
-               bool isWord;
-
-         // Node();
-          /*{
-            for(int i = 0; i < NUM_CHARS; i++){
-                letters[i]= nullptr;
-            }
-            isWord = false;
-        }
-*/
-
-
-    };
-
-/*
-    struct Node {
-        //Node* letters = NUM_CHARS[26];
         Node* letters[NUM_CHARS];
-        bool isWord; //= false;
+        bool isWord;
+
+        Node() { // added here
+            isWord = false;
+            for (int i = 0; i < NUM_CHARS; i++) {
+                letters[i] = nullptr;
+            }
+        }
+
     };
-*/
-    Node* root{};
-    int numWords{};
+
+    Node* root;
+   // Node* letters[NUM_CHARS]; //branch
+    int numWords;
 
     // Any private methods you need/want
     // You may change these helpers if you want, but you don't need to.
@@ -97,6 +86,7 @@ private:
 
     void SaveDictionaryHelper(Node* curr, string currPrefix, ofstream& outFile);
     //post: Save words to a file.
+
 
 };
 

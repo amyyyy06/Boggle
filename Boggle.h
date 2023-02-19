@@ -38,7 +38,9 @@ private:
 
     void PrintBoard(ostream& output);
     // Calls recursive function SolveBoardHelper to print out.
-    int SolveBoardHelper(/* Put any parameters you want/need here */);
+    //int SolveBoardHelper(/* Put any parameters you want/need here */);
+    void SolveBoardHelper(int row, int col, int step, string path, int visited[][BOARD_SIZE], bool printBoard,
+                          ostream &output);
     // Post: Print out.
     //       All the words on the current board by board and save theses words to the dictionary.
 };
